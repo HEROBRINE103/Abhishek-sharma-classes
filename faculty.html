@@ -7,14 +7,19 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
 
 <!-- HEADER -->
-<header class="header">
+<header class="main-header">
   <div class="logo">Abhishek Mishra <span>Classes</span></div>
-  <nav class="nav">
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  <nav id="navMenu">
     <a href="index.html">Home</a>
     <a href="courses.html">Courses</a>
     <a href="faculty.html" class="active">Faculty</a>

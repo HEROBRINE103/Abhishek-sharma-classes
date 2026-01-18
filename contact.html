@@ -9,6 +9,8 @@
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -16,7 +18,10 @@
 <!-- HEADER -->
 <header class="main-header">
   <div class="logo">Abhishek Mishra <span>Classes</span></div>
-  <nav>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  <nav id="navMenu">
     <a href="index.html">Home</a>
     <a href="courses.html">Courses</a>
     <a href="faculty.html">Faculty</a>
@@ -25,6 +30,7 @@
     <a href="contact.html" class="active">Contact</a>
   </nav>
 </header>
+
 
 <!-- HERO -->
 <section class="page-hero">
